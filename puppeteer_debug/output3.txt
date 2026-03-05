@@ -1,0 +1,4 @@
+LOG: [vite] connecting...
+LOG: %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+ERROR: Cannot read properties of undefined (reading 'S')
+LOG: [vite] connected.

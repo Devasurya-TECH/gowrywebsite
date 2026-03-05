@@ -1,0 +1,7 @@
+LOG: [vite] connecting...
+LOG: %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold
+ERROR: TypeError: Cannot read properties of undefined (reading 'S')
+    at Tt.exports (http://localhost:5173/node_modules/.vite/deps/chunk-UDSRCZXZ.js?v=ecc7ad43:8094:528)
+    at createReconciler (http://localhost:5173/node_modules/.vite/deps/chunk-UDSRCZXZ.js?v=ecc7ad43:9278:23)
+    at <anonymous> (http://localhost:5173/node_modules/.vite/deps/chunk-UDSRCZXZ.js?v=ecc7ad43:9490:18)
+LOG: [vite] connected.
