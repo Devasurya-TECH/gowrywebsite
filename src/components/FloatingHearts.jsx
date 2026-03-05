@@ -23,9 +23,9 @@ const FloatingHearts = () => {
       {particles.map((p) => (
         <motion.div
           key={p.id}
-          className="absolute bottom-0 select-none"
-          style={{ left: `${p.left}%`, fontSize: `${p.size}rem` }}
-          initial={{ y: "100vh", opacity: 0, x: 0 }}
+          className="absolute bottom-0 select-none will-change-transform"
+          style={{ left: `${p.left}%` }}
+          initial={{ y: "100vh", opacity: 0, x: 0, scale: p.size }}
           animate={{
             y: "-110vh",
             opacity: [0, 0.7, 0.7, 0],

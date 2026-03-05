@@ -151,7 +151,7 @@ const Reasons = () => {
                   hovered === index
                     ? `0 20px 60px rgba(0,0,0,0.4), 0 0 40px ${reason.glow}`
                     : "0 8px 30px rgba(0,0,0,0.3)",
-                backdropFilter: "blur(8px)",
+                backdropFilter: "blur(4px)",
               }}
             >
               {/* Number badge */}
@@ -164,7 +164,7 @@ const Reasons = () => {
 
               {/* Icon */}
               <motion.div
-                className="mb-6 relative"
+                className="mb-6 relative will-change-transform"
                 animate={
                   hovered === index
                     ? { scale: 1.2, rotate: [0, -10, 10, 0] }
@@ -178,8 +178,10 @@ const Reasons = () => {
                   style={{ color: reason.color }}
                 />
                 <div
-                  className="absolute inset-0 blur-2xl opacity-40"
-                  style={{ background: reason.color }}
+                  className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] to-transparent opacity-60"
+                  style={{
+                    "--tw-gradient-from": `${reason.color} var(--tw-gradient-from-position)`,
+                  }}
                 />
               </motion.div>
 

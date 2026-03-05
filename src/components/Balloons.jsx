@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const balloonData = Array.from({ length: 25 }).map((_, i) => ({
+const balloonData = Array.from({ length: 15 }).map((_, i) => ({
   id: i,
   color: ["#F33A6A", "#D4AF37", "#A78BFA", "#fbbf24", "#fdba74", "#f472b6"][
     Math.floor(Math.random() * 6)
@@ -18,7 +18,7 @@ const BalloonSVG = ({ color }) => (
     viewBox="0 0 100 148"
     width="80"
     height="118"
-    className="drop-shadow-2xl"
+    className="will-change-transform"
   >
     {/* Main Balloon Body */}
     <path
@@ -41,9 +41,9 @@ const Balloons = () => {
       {balloonData.map((b) => (
         <motion.div
           key={b.id}
-          className="absolute bottom-[-200px]"
+          className="absolute bottom-[-200px] will-change-transform"
           style={{ left: `${b.left}%` }}
-          initial={{ y: 0, opacity: 0 }}
+          initial={{ y: 0, opacity: 0, scale: 1 }}
           animate={{
             y: "-130vh", // Float way past the top
             opacity: [0, 1, 1, 0], // Fade in, then fade out at the very top

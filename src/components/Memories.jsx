@@ -68,12 +68,11 @@ const Memories = () => {
         {photos.map((photo, index) => (
           <motion.div
             key={index}
-            className="break-inside-avoid relative overflow-hidden rounded-2xl group cursor-pointer"
+            className="break-inside-avoid relative overflow-hidden rounded-2xl group cursor-pointer shadow-[0_10px_40px_rgba(0,0,0,0.5)] will-change-transform"
             initial={{ opacity: 0, y: 60 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            style={{ boxShadow: "0 10px 40px rgba(0,0,0,0.5)" }}
           >
             <div className="relative w-full overflow-hidden block">
               <img
