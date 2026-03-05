@@ -54,7 +54,7 @@ const LoveMessage = () => {
       <motion.div
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed opacity-40 blur-xl"
         style={{
-          backgroundImage: `url("/couple photos/IMG_20251113_WA0034.jpg.jpeg")`,
+          backgroundImage: `url("/couple photos/IMG_20251113_WA0034.webp")`,
         }}
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}

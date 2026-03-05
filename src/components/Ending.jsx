@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Monkey from "./Monkey";
 
 const Ending = () => {
-  const bgImage = "/couple photos/IMG_20260103_185134374.jpg.jpeg";
+  const bgImage = "/couple photos/IMG_20260103_185134374.webp";
 
   const quotes = [
     '"Every moment with you is special."',

@@ -19,7 +19,7 @@ const GlowCircle = ({ className, fromColor }) => (
 );
 
 const Hero = ({ onOpen }) => {
-  const bgImage = "/couple photos/IMG_20251219_125421639.jpg.jpeg";
+  const bgImage = "/couple photos/IMG_20251219_125421639.webp";
 
   const letters = "Happy Birthday".split("");
   const name = "Shottey ♡".split("");

@@ -4,35 +4,35 @@ import Monkey from "./Monkey";
 
 const photos = [
   {
-    src: "/couple photos/IMG_20251029_144409.jpg.jpeg",
+    src: "/couple photos/IMG_20251029_144409.webp",
     caption: "Sweet Moments",
   },
   {
-    src: "/couple photos/IMG_20251109_151929972.jpg.jpeg",
+    src: "/couple photos/IMG_20251109_151929972.webp",
     caption: "Your Radiant Glow",
   },
   {
-    src: "/couple photos/IMG-20251113-WA0034.jpg.jpeg",
+    src: "/couple photos/IMG-20251113-WA0034.webp",
     caption: "Together Forever",
   },
   {
-    src: "/couple photos/IMG_20251116_184402557.jpg.jpeg",
+    src: "/couple photos/IMG_20251116_184402557.webp",
     caption: "A Special Day",
   },
   {
-    src: "/couple photos/IMG_20251219_125423955.jpg.jpeg",
+    src: "/couple photos/IMG_20251219_125423955.webp",
     caption: "Memory Lane",
   },
   {
-    src: "/couple photos/IMG_20260103_185128604.jpg.jpeg",
+    src: "/couple photos/IMG_20260103_185128604.webp",
     caption: "Pure Happiness",
   },
   {
-    src: "/couple photos/IMG_20260103_185134374.jpg.jpeg",
+    src: "/couple photos/IMG_20260103_185134374.webp",
     caption: "Deep in Love",
   },
   {
-    src: "/couple photos/IMG_20251102_165228640.jpg.jpeg",
+    src: "/couple photos/IMG_20251102_165228640.webp",
     caption: "Pure Magic",
   },
 ];

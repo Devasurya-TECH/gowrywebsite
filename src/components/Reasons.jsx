@@ -66,7 +66,7 @@ const Reasons = () => {
       <motion.div
         className="absolute inset-0 z-0 bg-cover bg-center bg-fixed opacity-30 blur-xl"
         style={{
-          backgroundImage: `url("/couple photos/IMG_20251102_165228640.jpg.jpeg")`,
+          backgroundImage: `url("/couple photos/IMG_20251102_165228640.webp")`,
         }}
         initial={{ scale: 1.1 }}
         animate={{ scale: 1 }}

@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const Monkey = ({ className, type = "floating" }) => {
-  const monkeySrc = "/monkey/WhatsApp Image 2026-03-05 at 8.54.37 PM.jpeg";
+  const monkeySrc = "/monkey/WhatsApp Image 2026-03-05 at 8.54.37 PM.webp";
 
   const variants = {
     floating: {
