@@ -3,15 +3,30 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles, Heart } from "lucide-react";
 import Monkey from "./Monkey";
 
-const fullMessage = `Dearest Gowry,
+const fullMessage = `nte ponn potteyy,
 
-From the very first moment you entered my world, everything changed — the colours got brighter, the days felt warmer, and my heart found its home in your smile.
+nee first ente life il vannapo I did never thought of having a future with you, but now here I am. Oufffff engneyalle life oke pooyee.
 
-You are the melody I never knew I was missing. Every laugh we share, every quiet moment, every adventure — you make them all extraordinary.
+nml kand mutti adhyam nink enne ishtallarunnn. enit pinne nml mindi, enit nml frnds aayi, enit nml close frnds aayi.
 
-On this beautiful day, I want you to know how endlessly grateful I am for you. You are my sunshine, my comfort, and my greatest joy.
+then one day nee ennod just “nink ishtalle” enn choich. apo sathyathi enik arinjudaarun how did I felt about you.
 
-Happy Birthday, my beautiful Shottey — the world is so lucky to have you. ❤️`;
+nja apo fun ine “nml frnds alle” enn prnju, but since that day I really know what I had with you.
+
+and you just start ignoring me. it just strike me hard, and enik ninte eduth ente feelings endha enn thurann pryanm enn thooni.
+
+sathyathi ann nml orumich veetil pokamenn vicharich. avide thudangi ellam.
+
+ipol njan dhaa ivde nink veendi ee website undakkunnu😁
+
+ik you had so many traumas in your life and I cant fix you, but I can be with you from now to the end while you eventually becoming a better person and overcoming the traumas you lived.
+
+Happy birthday to the most beautiful and kind girl I know.
+
+I love you. I don't know how much.
+
+I just love you sooooooo much❤️😘.
+`;
 
 const LoveMessage = () => {
   const [displayText, setDisplayText] = useState("");

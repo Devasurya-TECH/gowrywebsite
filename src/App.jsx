@@ -7,7 +7,6 @@ import FloatingHearts from "./components/FloatingHearts";
 // Lazy load all heavy downstream components to eliminate main-thread stutter
 const Memories = lazy(() => import("./components/Memories"));
 const LoveMessage = lazy(() => import("./components/LoveMessage"));
-const Reasons = lazy(() => import("./components/Reasons"));
 const Celebration = lazy(() => import("./components/Celebration"));
 const Ending = lazy(() => import("./components/Ending"));
 
@@ -54,7 +53,6 @@ function App() {
               >
                 <Memories />
                 <LoveMessage />
-                <Reasons />
                 <Celebration />
                 <Ending />
               </Suspense>

@@ -283,7 +283,7 @@ const Celebration = () => {
               className="space-y-3"
             >
               <p className="font-sans uppercase tracking-[0.4em] text-premium-gold md:text-2xl text-lg font-bold">
-                You Make My World Beautiful ❤️
+                Licence Edukan Time Ayi
               </p>
               <div className="flex justify-center gap-3 text-3xl mt-4">
                 {["🎉", "🎊", "💕", "🌹", "🎂", "✨"].map((e, i) => (

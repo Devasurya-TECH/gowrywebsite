@@ -8,7 +8,7 @@ const Ending = () => {
   const quotes = [
     '"Every moment with you is special."',
     '"Thank you for being in my life."',
-    '"Happy Birthday Shottey ❤️"',
+    '"Happy Eighteen My Love ❤️"',
   ];
 
   return (
@@ -115,7 +115,7 @@ const Ending = () => {
             Forever & Always ❤️
           </p>
           <div className="flex justify-center gap-3 text-2xl">
-            {["❤️", "🌹", "✨", "💕", "🌸", "💫", "🌹", "❤️"].map((e, i) => (
+            {[].map((e, i) => (
               <motion.span
                 key={i}
                 initial={{ opacity: 0, y: 10 }}
